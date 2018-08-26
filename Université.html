@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<meta charset=utf-8 />
+		<link rel="import" href="http://esupweb.univ-artois.fr/com/visites/LensJeanPerrin.html">
+		<title>UNIVERSITE D ARTOIS</title>
+
+	</head>
+
+<body>
+<div class=contenu>
+
+	<h1>Université d'Artois</h1>
+
+	<div class="Menu">
+	<a target=_blank href=https://wmailetu.univ-artois.fr><input class="Zimbra" type=button></a>
+	<a target=_blank href=http://ent.univ-artois.fr/uPortal/f/u160l1s5/normal/render.uP ><input type=button class="ENT"></a>
+	<a target=_blank href=http://ent.univ-artois.fr/uPortal/p/attom/><input class="Attom" type=button value="Attom Notifications"></a>
+	<a target=_blank href=EDT.pdf><input type=button value="Emploi du temps" class="Agenda"></a>
+	<a target=_blank href=http://informatique.univ-artois.fr/licence/calendrier_L1-L2.pdf><input type=button value="Calendrier" class="Calendrier"></a>
+	</div>
+
+
+	<aside>
+		<h2>MENU :</h2>
+		<ul>
+			<li><a href="https://drive.google.com/open?id=1zSkYHBDP4QokMtuKlzUmQL0jh0KprEU1&usp=sharing" target=_blank >Itinéraire</a></li>
+			<li>Scolarité Informatique :</li>
+			<ol>Aurore Atmania</ol>
+			<ol><ol>03 21 79 17 44</ol></ol>
+			<ol><ol>03 21 79 17 17</ol></ol>
+			<ol><ol><a title="aurore.atmania@univ-artois.fr" href="mailto:aurore.atmania@univ-artois.fr">envoyer un mail</a></ol></ol>
+			<li>Directeur des études</li>
+			<ol>Daniel Le Berre</ol>
+			<ol><ol>03 21 79 17 88</ol></ol>
+			<ol><ol><a title="daniel.leberre@univ-artois.fr" href="mailto:daniel.leberre@univ-artois.fr">envoyer un mail</a></ol></ol>
+		</ul>
+		<a href="Plan.jpg"><img src="Plan.jpg" class="Map" /></a>
+	</aside>
+	
+	<img src="https://www.cril.univ-artois.fr/JFPC05/planfac.png" class="Plan"/>
+	
+	
+	
+	
+</div>
+
+<style>
+.Plan
+{
+width: 500px;
+float: right;
+margin-top: 1cm;
+background-blend-mode:luminosity;
+background-color:rgba(127,127,127,0.4);
+border-radius:15px 0 0 15px;
+border: 3px solid white;
+border-right:none;
+}
+
+.Map
+{
+border: 2px solid lightskyblue;
+width:200px;
+height:180px;
+margin-left: 0.5cm;
+margin-top: 0.5cm;
+border-radius:50px;
+border-radius:50px;
+}
+
+h2
+{
+text-align:center;
+text-decoration: underline black;
+margin-top: 0px;
+}
+
+aside
+{
+width:18%;
+font-size:14px;
+border: 3px solid white;
+border-left:none;
+border-bottom:none;
+margin-top: 1cm;
+background-color:lightgrey;
+border-radius: 0 15px 15px 0;
+height: 76%;
+float:left;
+}
+
+.Menu
+{
+background-color: black;
+height:1cm;
+margin-top: 0.5cm;
+border-bottom: 3px solid white;
+border-top: 3px solid white;
+}
+
+@keyframes blend-mode-anim
+{
+0%{background-blend-mode: overlay;}
+50%{background-blend-mode: lighten;}
+100%{background-blend-mode: luminosity;}
+}
+
+h1
+{
+cursor:url(Menu.CUR),default;
+margin:auto;
+text-align:center;
+text-shadow:black 1px 1px,black 1px -1px,black -1px 1px, black -1px -1px;
+color:white;
+border: 5px solid;
+border-top:none;
+border-radius: 0 0 25px 25px;
+width:9cm;
+}
+
+a>input
+{
+border: 3px solid transparent;
+border-radius:5px;
+height:1cm;
+text-align:center;
+sanimation: blend-mode-anim 1s linear infinite;
+margin-right:0px;
+background-color:grey;
+color:white;
+width:19.7%;
+padding:10px 15px;
+cursor:url(aside.cur),pointer;
+}
+
+a:link
+{
+text-decoration:none;
+color:black;
+}
+
+a:visited
+{
+color:green;
+}
+
+.contenu
+{
+background-image:url('https://www.villedelens.fr/wp-content/uploads/2018/03/jean-perrin-vue-aerienne.jpg');
+height:98%;
+border: 5px solid white;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+@keyframes color
+{
+0% {background-color:black;}
+7.7% {background-color:blue}
+15.4% {background-color:green}
+23.1% {background-color:rgb(0,255,255)}
+30.8% {background-color:red}
+38.5% {background-color:pink}
+46.2% {background-color:yellow}
+55.9% {background-color:white}
+63.6% {background-color:yellow}
+71.3% {background-color:pink}
+79% {background-color:red}
+86.7% {background-color:rgb(0,255,255)}
+94.4% {background-color:green}
+100% {background-color:blue}
+}
+
+body
+{
+animation: color 5s linear 2;
+background-color:black;
+border-radius:-25px;
+}
+
+
+.Attom
+{
+background-image:url('http://ent.univ-artois.fr/SimpleContentPortlet/content/2cec6477-eb57-4173-93de-aa654a83fc38/Picto_Attom_1.jpg');
+
+background-size:25% 100%;
+background-repeat:no-repeat;
+text-align-last:center;
+background-blend-mode: luminosity;
+background-color:grey;
+color:white;
+}
+
+.ENT
+{
+background-image:url('http://ent.univ-artois.fr/uPortal/media/skins/universality/artois/images/portal_logo.png');
+background-size:107% 100%;
+background-repeat:no-repeat;
+text-align:right;
+background-color:grey;
+}
+
+.Zimbra
+{
+background-image:url('https://www.zimbra.com/wp-content/uploads/2016/06/zimbra-logo-color-282-1.png');
+background-size:100% 100%;
+background-repeat:no-repeat;
+text-align:right;
+background-color:grey;
+background-blend-mode: multiply;
+sbackground-blend-mode: screen;
+sbackground-blend-mode: darken;
+}
+
+.Calendrier
+{
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-QvRbrNr9rCB85FowquuzpTW5Cty064TfIEdFqnPIPXBJgoH');
+background-size:23% 100%;
+background-repeat:no-repeat;
+text-align:center;
+background-color:grey;
+}
+
+.Agenda
+{
+background-image:url('https://www.combatdecoqs.fr/wp-content/uploads/2017/10/agenda-2018-culture-francaise-interieur.jpg');
+background-size:23% 100%;
+background-repeat:no-repeat;
+text-align:center;
+background-color:grey;
+}
+
+
+
+
+
+
+</style>
