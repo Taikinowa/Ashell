@@ -35,34 +35,51 @@
 			<ol><ol>03 21 79 17 88</ol></ol>
 			<ol><ol><a title="daniel.leberre@univ-artois.fr" href="mailto:daniel.leberre@univ-artois.fr">envoyer un mail</a></ol></ol>
 		</ul>
-		<a href="Plan.JPG"><img src="Plan.JPG" class="Map" /></a>
+		<a style="overflow:hidden;white-space: nowrap;" href="Plan.JPG"><img src="Plan.JPG" class="Map" /></a>
 	</aside>
-<iframe src="https://www.google.com/maps/d/embed?mid=1mzl8a0mKeTuixo4H3hzY-c2771g&hl=fr" style="margin-top: 1cm;margin-left:1cm;opacity:0.7;" width="40%" height="60%"></iframe>	
+<iframe src="https://www.google.com/maps/d/embed?mid=1mzl8a0mKeTuixo4H3hzY-c2771g&hl=fr" frameborder="0px" class="frafra" width="40%" height="59%"></iframe>	
 
 	<img src="https://www.cril.univ-artois.fr/JFPC05/planfac.png" class="Plan"/>
 	
-	
-	<footer>Version Mobile</footer>
-	
+	<footer><a href="Mobile.html">Z-Ryk Society</a></footer>
 </div>
-
+</body>
+</html>
 <style>
+.frafra
+{
+margin-top:3%;
+margin-left:1cm;
+opacity:0.9;
+border:3px solid white;
+}
+
 footer
 {
-background-color:red;
-margin-top:2cm;
-margin-left:32cm;
+background-color:rgba(100,100,200,0.4);
+margin-top:5%;
+text-shadow:black 1px 1px, black 1px -1px, black -1px 1px,black -1px -1px;
 text-align:center;
+border:3px solid white;
+border-right:none;
+border-left:none;
+border-bottom:none;
+border-radius: 10px 10px 0 0;
+}
+
+footer>a:link
+{
+color:yellow;
 }
 
 .Plan
 {
-width: 450px;
-height:60%;
+width: 35%;
+height:59%;
 float: right;
-margin-top: 1cm;
+margin-top: 3%;
 background-blend-mode:luminosity;
-background-color:rgba(127,127,127,0.4);
+background-color:rgba(127,127,127,0.6);
 border-radius:15px 0 0 15px;
 border: 3px solid white;
 border-right:none;
@@ -71,12 +88,12 @@ border-right:none;
 .Map
 {
 border: 2px solid lightskyblue;
-width:200px;
-height:130px;
-margin-left: 0.5cm;
-margin-top: 0cm;
+width:88%;
+height:35%;
+margin-left: 5%;
 border-radius:50px;
 border-radius:50px;
+position:relative;
 }
 
 h2
@@ -88,23 +105,23 @@ margin-top: 0px;
 
 aside
 {
-width:18%;
+width:20%;
 font-size:14px;
 border: 3px solid white;
 border-left:none;
 border-bottom:none;
-margin-top: 1cm;
+margin-top: 3%;
 background-color:lightgrey;
 border-radius: 0 15px 15px 0;
-height: 60%;
+height: 59%;
 float:left;
 }
 
 .Menu
 {
 background-color: white;
-height:1cm;
-margin-top: 0.5cm;
+height:6.7%;
+margin-top: 1.7%;
 border-bottom: 3px solid white;
 border-top: 3px solid white;
 }
@@ -126,22 +143,23 @@ color:white;
 border: 5px solid;
 border-top:none;
 border-radius: 0 0 25px 25px;
-width:9cm;
+width:25%;
 }
 
 a>input
 {
 border: 3px solid transparent;
 border-radius:5px;
-height:1cm;
+height:92%;
 text-align:center;
-sanimation: blend-mode-anim 1s linear infinite;
+animation: color 5s linear 2;
 margin-right:0px;
+padding: 0px 3px;
 background-color:grey;
 color:white;
 width:19.7%;
-padding:10px 15px;
 cursor:url(aside.cur),pointer;
+box-shadow: 3px 3px black;
 }
 
 a:link
@@ -158,7 +176,6 @@ color:green;
 .contenu
 {
 background-image:url('https://www.villedelens.fr/wp-content/uploads/2018/03/jean-perrin-vue-aerienne.jpg');
-height:98%;
 border: 5px solid white;
 background-repeat:no-repeat;
 background-size:cover;
